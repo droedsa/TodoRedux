@@ -1,0 +1,15 @@
+.cart-w {
+    margin: 10px;
+    min-height: 250px;
+}
+.done{
+    opacity: 50%;
+}
+
+.card-body p {
+    min-height: 100px;
+}
+
+.card-body button{
+    margin: 2px;
+}

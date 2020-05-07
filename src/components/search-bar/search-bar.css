@@ -1,0 +1,16 @@
+.task-state .task-priority {
+
+}
+.btn-search{
+    max-height: 45px;
+    background-color: #aabcd1;
+    color: white;
+}
+.input-search{
+    min-width: 300px;
+}
+
+.containerr{
+    max-width:1200px;
+    margin: 0 auto;
+}
