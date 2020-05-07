@@ -167,6 +167,7 @@ const reducer = (state = initialState, action) => {
                 }
             }
         }
+
         case 'FORM_CHANGE_TITLE':
             return {
                 ...state,
@@ -193,6 +194,7 @@ const reducer = (state = initialState, action) => {
                     priorityPanelBar:action.payload
                 }
             };
+
         case 'SORT_CHANGE_STATUS_SEARCH_BAR':
             return {
                 ...state,

@@ -17,9 +17,9 @@ const Form = ({onClosedForm, form, onChangeTextA, onChangeTitle, onChangePriorit
                 </select>
             </div>
             <div className="card-body d-flex flex-column">
-                <input className='form-control' value={title}
+                <input className='form-control' placeholder='Title' value={title}
                        onChange={(e) => onChangeTitle(e.target.value)} type="text"/>
-                <textarea value={text} onChange={(event => onChangeTextA(event.target.value))}
+                <textarea placeholder='Some text...' value={text} onChange={(event => onChangeTextA(event.target.value))}
                           className='form-control'/>
                 <button className='btn btn-success' onClick={onSaveNewTarget}> Save</button>
                 <button onClick={onClosedForm} className='btn badge-danger'>Cancel</button>

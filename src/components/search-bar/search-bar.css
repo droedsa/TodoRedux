@@ -7,7 +7,8 @@
     color: white;
 }
 .input-search{
-    min-width: 300px;
+    min-width: 500px;
+    border-right: solid 1px #1a1a1a;
 }
 
 .containerr{

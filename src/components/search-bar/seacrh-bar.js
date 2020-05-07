@@ -7,8 +7,8 @@ import {onChangePrioritySearchBar, onChangeSearchPanelBar, onChangeStatusSearchB
 const SearchBar = ({onVisible, sortBar, onChangePriorityBar, onChangeStatusBar, onChangeSearchBar}) => {
     const {searchPanel, priorityPanelBar, statusBar} = sortBar
     return (
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-            <a className="navbar-brand" href="#">TODO-LIST</a>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-dark container-fluid">
+            <h1 className="navbar-brand" href="#">TODO-LIST</h1>
 
             <div className="navbar-collapse">
                 <input value={searchPanel} onChange={event => onChangeSearchBar(event.target.value)}

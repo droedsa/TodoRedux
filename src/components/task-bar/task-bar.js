@@ -18,7 +18,7 @@ const TaskBar = ({
                 debugger;
                 if (((priorityPanelBar === priority || priorityPanelBar === 'All')
                     && (done === statusBar || statusBar === 'All'))
-                    && (title.includes(searchPanel) || searchPanel === '')) {
+                    && (title.includes(searchPanel) ||text.includes(searchPanel) || searchPanel === '')) {
                     return <div key={id}>
                         <TaskBarItem id={id}
                                      title={title}
